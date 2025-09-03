@@ -33,7 +33,7 @@ Analyzed network traffic data from the IDS 2017 dataset to compare benign vs. at
 ## 🛠️ How It’s Built
 - **SQL (data prep & aggregation)**  
   Queries used to summarize and shape the data are in **/SQL**:
-  - `SQL/TrafficLabelling Queries.sql`
+  - `SQL/TrafficLabelling\ Queries.sql`
 
 - **Power BI (visualization)**  
   - Date & label slicers for interactive filtering
@@ -43,7 +43,7 @@ Analyzed network traffic data from the IDS 2017 dataset to compare benign vs. at
   - Clustered bar for benign vs attack characteristics  
 
 Open the Power BI file here:  
-`PowerBI/IDS 2017.pbix`  
+`PowerBI/IDS\ 2017.pbix`  
 
 ---
 
