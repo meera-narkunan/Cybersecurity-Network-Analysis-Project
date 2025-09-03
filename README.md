@@ -32,7 +32,8 @@ Analyzed network traffic data from the IDS 2017 dataset to compare benign vs. at
 
 ## 🛠️ How It’s Built
 - **SQL (data prep & aggregation)**  
-  Queries used to summarize and shape the data are in **/SQL**:
+  - Queries were used to summarize and shape the network traffic data.  
+  - Aggregations include attack counts by type, source IP, destination port, and hourly trends. 
 
 - **Power BI (visualization)**  
   - Date & label slicers for interactive filtering
