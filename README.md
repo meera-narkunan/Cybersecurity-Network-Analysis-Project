@@ -1,6 +1,7 @@
 # Cybersecurity-Network-Analysis-Project
 
 **Summary**
+
 Analyzed network traffic data from the IDS 2017 dataset to compare benign vs. attack traffic, identify the most frequent attack types, top attacked ports, high-risk source IPs, and hourly attack trends. Built an interactive Power BI dashboard with dynamic slicers to visualize patterns over time and provide actionable cybersecurity insights.
 
 - **Tools:** SQL, Power BI
@@ -33,7 +34,7 @@ Analyzed network traffic data from the IDS 2017 dataset to compare benign vs. at
 ## 🛠️ How It’s Built
 - **SQL (data prep & aggregation)**  
   Queries used to summarize and shape the data are in **/SQL**:
-  - `SQL/TrafficLabelling\ Queries.sql`
+- [SQL Queries](SQL/TrafficLabelling\ Queries.sql) 
 
 - **Power BI (visualization)**  
   - Date & label slicers for interactive filtering
@@ -43,7 +44,7 @@ Analyzed network traffic data from the IDS 2017 dataset to compare benign vs. at
   - Clustered bar for benign vs attack characteristics  
 
 Open the Power BI file here:  
-`PowerBI/IDS\ 2017.pbix`  
+- [Power BI Dashboard (.pbix)](PowerBI/IDS\ 2017.pbix)  
 
 ---
 
