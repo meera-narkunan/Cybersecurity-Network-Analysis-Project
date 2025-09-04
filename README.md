@@ -60,6 +60,16 @@ Analyzed network traffic data from the IDS 2017 dataset to compare benign vs. at
 **Peak Attack Time:** The majority of attacks occurred around **10 AM**, indicating potential patterns in attacker behavior or network vulnerability periods.
 
 ---
+## Mitigation Strategies
+Based on the analysis of network traffic, the following measures could help reduce attacks:
+
+- **Monitor high-risk source IPs:** Implement firewall rules or intrusion prevention for IPs like 172.16.0.1.  
+- **Harden web services:** Since port 80 is frequently targeted, ensure web servers are patched and properly configured.  
+- **Traffic anomaly detection:** Use thresholds for bytes per second and connection duration to detect unusual activity.  
+- **Time-based monitoring:** Increase monitoring around peak attack hours (e.g., 10 AM) to quickly respond to potential attacks.  
+- **User awareness and training:** Educate internal users to reduce risk from common attack vectors like scanning or DoS attempts.
+
+---
 
 ## 📬 Notes
 - This project is for portfolio/demonstration purposes using publicly available data (IDS 2017).
