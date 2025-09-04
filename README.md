@@ -1,6 +1,6 @@
 # Cybersecurity-Network-Analysis-Project
 
-## Summary
+## 📄 Summary
 Analyzed network traffic data from the IDS 2017 dataset to compare benign vs. attack traffic, identify the most frequent attack types, top attacked ports, high-risk source IPs, and hourly attack trends. Built an interactive Power BI dashboard with dynamic slicers to visualize patterns over time and provide actionable cybersecurity insights.
 
 - **Tools:** SQL, Power BI
@@ -60,7 +60,7 @@ Analyzed network traffic data from the IDS 2017 dataset to compare benign vs. at
 **Peak Attack Time:** The majority of attacks occurred around **10 AM**, indicating potential patterns in attacker behavior or network vulnerability periods.
 
 ---
-## Mitigation Strategies
+## 🛡️ Mitigation Strategies
 Based on the analysis of network traffic, the following measures could help reduce attacks:
 
 - **Monitor high-risk source IPs:** Implement firewall rules or intrusion prevention for IPs like 172.16.0.1.  
@@ -71,6 +71,6 @@ Based on the analysis of network traffic, the following measures could help redu
 
 ---
 
-## 📬 Notes
+## 📝 Notes
 - This project is for portfolio/demonstration purposes using publicly available data (IDS 2017).
 - No sensitive or proprietary data is included.
